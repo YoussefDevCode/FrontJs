@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: white;
+  height: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+.nav h1 {
+  color: #3389FF;
+  padding-left: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.nav ul {
+  list-style-type: none;
+  padding-right: 6em;
+}
+.nav ul li {
+  display: inline-block;
+  margin: 1em;
+  padding: 0.5;
+  text-decoration: none;
+  color: #3389FF;
+}
+.nav ul li #circle {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #3389FF;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid black;
+  overflow: visible;
+  height: 1px;
+}
+
+main {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 2em;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 0.1em solid grey;
+  border-right: 0.1em solid grey;
+  overflow: hidden;
+}
+main form .inp_container input[type=text] {
+  width: 80%;
+}/*# sourceMappingURL=style.css.map */
